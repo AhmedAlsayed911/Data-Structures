@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1766583872 source:c:\users\ka\desktop\iti\data structures\labs\stack\stacklinkedlist\src\main.cpp
+	<iostream>
+	"../include/Menu.h"
+
+1766583872 c:\users\ka\desktop\iti\data structures\labs\stack\stacklinkedlist\include\menu.h
+	<windows.h>
+	<iostream>
+	<conio.h>
+	"Stack.h"
+
+1766543285 c:\users\ka\desktop\iti\data structures\labs\stack\stacklinkedlist\include\stack.h
+
+1766544537 source:c:\users\ka\desktop\iti\data structures\labs\stack\stacklinkedlist\src\stack.cpp
+	"../include/Stack.h"
+	<iostream>
+
