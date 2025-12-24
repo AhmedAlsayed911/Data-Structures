@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1766321516 source:c:\users\ka\desktop\iti\dsa\labs\linkedlist\main.cpp
+	"Menu.h"
+
+1766321088 c:\users\ka\desktop\iti\dsa\labs\linkedlist\menu.h
+	<iostream>
+	<cstring>
+	<windows.h>
+	<conio.h>
+
+1766321749 source:c:\users\ka\desktop\iti\dsa\labs\linkedlist\menu.cpp
+	"Menu.h"
+
