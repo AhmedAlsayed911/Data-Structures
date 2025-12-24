@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1766546511 source:c:\users\ka\desktop\iti\dsa\labs\queue\linkedlistqueue\src\queue.cpp
+	"../include/Queue.h"
+	<iostream>
+
+1766547254 c:\users\ka\desktop\iti\dsa\labs\queue\linkedlistqueue\include\queue.h
+
+1766547477 source:c:\users\ka\desktop\iti\dsa\labs\queue\linkedlistqueue\src\main.cpp
+	"../include/Queue.h"
+	<iostream>
+
+1766547477 source:c:\users\ka\desktop\iti\dsa\labs\queue\queuelinkedlist\src\main.cpp
+	"../include/Queue.h"
+	<iostream>
+
+1766547254 c:\users\ka\desktop\iti\dsa\labs\queue\queuelinkedlist\include\queue.h
+
+1766547617 source:c:\users\ka\desktop\iti\dsa\labs\queue\queuelinkedlist\src\queue.cpp
+	"../include/Queue.h"
+	<iostream>
+
