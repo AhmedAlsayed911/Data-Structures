@@ -19,10 +19,8 @@ CircularQueue::~CircularQueue()
 void CircularQueue::enqueue(int value)
 {
     if (isFull())
-    {
-        cout << "Queue is full! Cannot enqueue " << value << endl;
         return;
-    }
+
 
     rear = (rear + 1) % length;
     arr[rear] = value;
