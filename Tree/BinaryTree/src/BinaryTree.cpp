@@ -54,7 +54,6 @@ void BinaryTree::insertLoop(int value)
 
     else
         parent->right = newNode;
-
 }
 
 void BinaryTree::insertRecursive(int value)
@@ -88,12 +87,11 @@ Node *BinaryTree::findParent(int value)
     {
         parent = current;
 
-        if (value < current->data)       
+        if (value < current->data)
             current = current->left;
-        
+
         else
             current = current->right;
-        
     }
 
     if (current == NULL)
@@ -162,21 +160,19 @@ Node *BinaryTree::searchNode(Node *node, int value)
 {
     if (node == NULL || node->data == value)
         return node;
-    
+
     if (value < node->data)
         return searchNode(node->left, value);
 
     else
         return searchNode(node->right, value);
-
 }
 
 Node *BinaryTree::findMin(Node *node)
 {
     while (node->left != NULL)
-    {
         node = node->left;
-    }
+
     return node;
 }
 
